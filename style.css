@@ -1,0 +1,34 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  } */
+
+
+.container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-style: solid;
+}
+
+.btn{
+  border: none;
+  padding: 1.5vw;
+}
+
+.grid-square{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
